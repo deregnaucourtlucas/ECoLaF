@@ -9,8 +9,8 @@ setup(
     name = 'ecolaf', 
     
     version = '0.1.0',
-
-    description = 'A toolkit python package to build an evidential multimodal neural network for semantic segmentation or classification.',
+    
+    description = 'A toolkit python package to build an adaptive multimodal late fusion pipeline based on Dempster-Shafer Theory for semantic segmentation and classification tasks.',
     
     py_modules = ["ECOLAF"],
 
