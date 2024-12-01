@@ -9,7 +9,7 @@ setup(
     This name will be used when people try to do pip install. And it is CASE SENSITIVE. 
     You should create an unique name. Search on pypi.org to see if the name is taken or not.
     '''
-    name = 'YourPackageName', 
+    name = 'ecolaf', 
     
     '''
     The version number of your package consists of three integers "Major.Minor.Patch".
@@ -22,12 +22,12 @@ setup(
     '''
     This is the short description will show on the top of the webpage of your package on pypi.org
     '''
-    description = 'An NLP python package for computing Boilerplate score and many other text features.',
+    description = 'A toolkit python package to build an evidential multimodal neural network for semantic segmentation or classification.',
     
     '''
     This is the name of your main module file. No need to include the .py at the end.
     '''    
-    py_modules = ["TheModuleName"],
+    py_modules = ["ECOLAF"],
     
     '''
     Leave it as default. It shows where the module is stored.
@@ -45,8 +45,8 @@ setup(
     '''
     Change the author name(s) and email(s) here.
     '''
-    author = 'AuthorName',
-    author_email = 'xyz123@something.com',
+    author = 'Lucas Deregnaucourt',
+    author_email = 'lucas.deregnaucourt@insa-rouen.fr',
     
     '''
     Leave the following as default. It will show the readme and changelog on the main page of your package.
@@ -73,6 +73,8 @@ setup(
     https://pypi.org/classifiers/
     
     '''
+
+    '''
     classifiers  = [
         'Development Status :: 4 - Beta',
         'Programming Language :: Python :: 3',
@@ -89,7 +91,7 @@ setup(
         'Operating System :: Microsoft :: Windows',
         'Operating System :: OS Independent',
     ],
-    
+    '''
     
     '''
     This part specifies all the dependencies of your package. 
@@ -98,8 +100,7 @@ setup(
     '''
     install_requires = [
 
-        'pandas ~= 1.2.4',
-        ...
+        'torch ~= 2.0.0'
 
     ],
     
@@ -108,6 +109,6 @@ setup(
     '''
     The keywords of your package. It will help users to find your package on pypi.org
     '''
-    keywords = ['Text Mining', 'Data Science', ...],
+    keywords = ['Dempster-Shafer Theory', 'Deep Learning', 'Multimodal', 'Semantic Segmentation', 'Classification'],
     
 )
