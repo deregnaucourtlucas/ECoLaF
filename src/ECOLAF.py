@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from Dempster_Shafer_utils import *
+from src.Dempster_Shafer_utils import *
 
 class ECOLAF(nn.Module):
     def __init__(self, models:list, num_classes:int):
