@@ -14,11 +14,13 @@ Firstly, a single-modality neural network needs to be defined for each modality.
 Then you can build an *ECoLaF* pipeline as follows:   
 ```
 import ecolaf
-MyModel = ECOLAF(list_of_single_modality_networks, num_classes).
+MyModel = ECOLAF(list_of_single_modality_networks, num_classes)
 ```
 
 Given a list of multimodal images, the inference can be done as follows:   
-`output = MyModel(list_of_images, **kwargs)`.
+```
+output = MyModel(list_of_images, **kwargs)
+```
 
 The optional arguments of the forward method are listed bellow:
 
