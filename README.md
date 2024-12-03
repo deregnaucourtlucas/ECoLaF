@@ -1,4 +1,4 @@
-# ECoLaF
+# ECoLaF (Evidential Conflict-guided Late Fusion)
 
 This package offers a user-friendly toolkit to build an adaptive multimodal late fusion pipeline (*ECoLaF*) based on the Dempster-Shafer Theory from multiple single-modality neural networks.
 The proposed pipeline can be used for semantic segmentation and classification tasks.
