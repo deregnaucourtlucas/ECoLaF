@@ -5,6 +5,8 @@ The proposed pipeline can be used for semantic segmentation and classification t
 
 <!-- Mettre les équations et des exemples plus visuels pourrait pimper la description !!! -->
 
+## INSTALLATION
+To install the package, use the following command: `pip install ecolaf`.
 
 ## USAGE
 Firstly, a single-modality neural network needs to be defined for each modality. Please make sure that each neural network has a *forward* method. If the dataset you are working with has *K* classes, please make sure that your models output *K+1* values to fit the Dempster-Shafer framework. 
