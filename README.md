@@ -12,7 +12,10 @@ To install the package, use the following command: `pip install ecolaf`.
 Firstly, a single-modality neural network needs to be defined for each modality. Please make sure that each neural network has a *forward* method. If the dataset you are working with has *K* classes, please make sure that your models output *K+1* values to fit the Dempster-Shafer framework. 
 
 Then you can build an *ECoLaF* pipeline as follows:   
-`MyModel = ECOLAF(list_of_single_modality_networks, num_classes)`.
+```
+import ecolaf
+MyModel = ECOLAF(list_of_single_modality_networks, num_classes).
+```
 
 Given a list of multimodal images, the inference can be done as follows:   
 `output = MyModel(list_of_images, **kwargs)`.
