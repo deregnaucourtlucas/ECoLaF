@@ -1,5 +1,5 @@
 if __name__ == "__main__":
-    from src.ECOLAF import *
+    from src.ecolaf import *
     from torchvision import models
     import matplotlib.pyplot as plt
     import numpy as np
