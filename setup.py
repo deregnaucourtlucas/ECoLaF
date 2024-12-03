@@ -8,7 +8,7 @@ setup(
 
     name = 'ecolaf', 
     
-    version = '0.1.0',
+    version = '0.1.1',
     
     description = 'A toolkit python package to build an adaptive multimodal late fusion pipeline based on Dempster-Shafer Theory for semantic segmentation and classification tasks.',
     
