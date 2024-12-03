@@ -34,7 +34,7 @@ output_keyword (String): key to access to the output tensor if the model's outpu
 B: batch_size, M: number of modalities, H: images height, W: images width
 ```
 
-An example is provided in `test/test_code.py`.
+An example is provided in `tests/test_code.py`.
 
 ## CITATIONS
 
