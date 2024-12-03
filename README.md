@@ -39,7 +39,7 @@ If you use ECoLaF, please cite the following work:
 ```
 @InProceedings{deregnaucourt_2025_WACV,
     author    = {Deregnaucourt, Lucas and Laghmara, Hind and Lechervy, Alexis and Ainouz, Samia},
-    title     = {An Conglict-guided Evidential Fusion for Multimodal Semantic Segmentation},
+    title     = {An Conflict-guided Evidential Fusion for Multimodal Semantic Segmentation},
     booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
     month     = {February},
     year      = {2025},
