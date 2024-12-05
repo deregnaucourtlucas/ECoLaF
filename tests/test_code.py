@@ -1,3 +1,6 @@
+__author__='Lucas DEREGNAUCOURT'
+__author_email__='lucas.deregnaucourt@insa-rouen.fr'
+
 if __name__ == "__main__":
     from src.ecolaf import *
     from torchvision import models
