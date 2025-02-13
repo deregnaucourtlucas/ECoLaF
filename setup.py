@@ -8,7 +8,7 @@ setup(
 
     name = 'ecolaf', 
     
-    version = '0.1.3',
+    version = '0.1.4',
     
     description = 'A toolkit python package to build an adaptive multimodal late fusion pipeline based on Dempster-Shafer Theory for semantic segmentation and classification tasks.',
     
@@ -28,7 +28,7 @@ setup(
 
     install_requires = [
 
-        'torch ~= 2.0.0'
+        'torch'
 
     ],
     
