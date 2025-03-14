@@ -1,4 +1,5 @@
 # ECoLaF (Evidential Conflict-guided Late Fusion)
+This is the official implementation of A Conflict-Guided Evidential Multimodal Fusion for Semantic Segmentation, WACV 2025. For paper details, please check [paper](https://openaccess.thecvf.com/content/WACV2025/papers/Deregnaucourt_A_Conflict-Guided_Evidential_Multimodal_Fusion_for_Semantic_Segmentation_WACV_2025_paper.pdf).
 
 This package offers a user-friendly toolkit to build an adaptive multimodal late fusion pipeline (*ECoLaF*) based on the Dempster-Shafer Theory from multiple single-modality neural networks.
 The proposed pipeline can be used for semantic segmentation and classification tasks.
