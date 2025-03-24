@@ -42,6 +42,15 @@ B: batch_size, M: number of modalities, H: images height, W: images width
 
 An example is provided in `tests/test_code.py`.
 
+## Acknowledgements
+Thanks for the following public repositories:
+
+[MCubeSNet](https://github.com/kyotovision-public/multimodal-material-segmentation)
+
+[DeLIVER](https://github.com/jamycheung/DELIVER)
+
+[Semantic Segmentation](https://github.com/sithu31296/semantic-segmentation)
+
 ## CITATIONS
 
 If you use ECoLaF, please cite the following work:
